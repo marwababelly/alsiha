@@ -1,5 +1,13 @@
+:root {
+  --first-color: #a1ccd1;
+  --second-color: #f4f2de;
+  --third-color: #e9b384;
+  --fourth-color: #7c9d96;
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
