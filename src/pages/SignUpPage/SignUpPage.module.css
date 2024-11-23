@@ -1,0 +1,68 @@
+.allSide {
+  background-color: #f4f2de;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2SignUp {
+  margin-bottom: 3rem;
+  color: #7c9d96;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.formSide {
+  height: 50vh;
+  width: 70%;
+  border: 2px solid #e9b384;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.btn {
+  color: #e9b384;
+  background-color: #f4f2de;
+  border: 1px solid #e9b384;
+  width: 100%;
+}
+
+.btn:hover {
+  color: #f4f2de;
+  background-color: #e9b384;
+  border: 1px solid #f4f2de;
+}
+
+input[placeholder] {
+  width: 100%;
+  direction: rtl;
+  color: #e9b384;
+}
+
+input[placeholder]:focus {
+  border: 2px solid #e9b384;
+  box-shadow: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.paragraph {
+  margin-top: 3rem;
+  direction: rtl;
+}
+
+.spanParagraph {
+  color: #e9b384;
+  direction: ltr;
+  margin-top: -22px;
+}
+
+input {
+  background-color: #7c9d96;
+}

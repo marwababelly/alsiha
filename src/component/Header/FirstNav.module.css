@@ -1,0 +1,38 @@
+.firstNav {
+  display: flex;
+  background: #e9b384;
+  height: 10vh;
+  width: 100vw;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.firstN {
+  /* background: blue; */
+  display: flex;
+  width: 50%;
+  justify-content: end;
+  align-items: center;
+  padding-right: 5rem;
+  font-size: 21px;
+  color: white;
+}
+
+.secondN {
+  /* background: rebeccapurple; */
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.signUpL {
+  color: white;
+}
+
+.fontIcon {
+  width: 50px;
+  color: white;
+}

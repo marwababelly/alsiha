@@ -1,0 +1,18 @@
+.navDropdown {
+  /* background-color: aqua; */
+  padding-right: 20px;
+  margin-right: 10rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+.title {
+  font-size: 23px;
+  direction: rtl;
+  /* background-color: rgb(173, 220, 220); */
+}
+
+.rlt {
+  direction: rtl;
+}

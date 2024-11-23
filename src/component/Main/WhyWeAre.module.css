@@ -1,0 +1,17 @@
+.allWhyWeAre {
+  background-color: rgb(177, 93, 93);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.internalDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgWhyWeAre {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}

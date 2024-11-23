@@ -1,0 +1,19 @@
+.secondNav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+.brand {
+  padding-right: 30px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #7c9d96;
+  font-family: "Raleway", serif;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
