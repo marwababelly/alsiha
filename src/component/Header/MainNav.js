@@ -4,6 +4,7 @@ import SecondNav from "./SecondNav";
 import Overview from "../Main/Overview";
 import WhyWeAre from "../Main/WhyWeAre";
 import Number from "../Main/Number";
+import Review from "../Main/Review";
 
 const MainNav = () => {
   return (
@@ -13,6 +14,7 @@ const MainNav = () => {
       <Overview />
       <WhyWeAre />
       <Number />
+      <Review />
     </div>
   );
 };
