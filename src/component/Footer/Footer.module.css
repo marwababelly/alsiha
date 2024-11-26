@@ -1,0 +1,21 @@
+.allFooter {
+  margin-top: 10rem;
+  border-top: #7c9d96 2px solid;
+  display: flex;
+  background-color: #f4f2de;
+  direction: rtl;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.FIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FIcons img {
+  width: 25px;
+  height: 25px;
+}
