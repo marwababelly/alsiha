@@ -66,3 +66,15 @@ input[placeholder]:focus {
 input {
   background-color: #7c9d96;
 }
+
+.linkIcon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.arrowLeftIcon {
+  color: #7c9d96;
+  width: 50px;
+}

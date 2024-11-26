@@ -4,6 +4,8 @@ import { Form, Button, Nav } from "react-bootstrap";
 import { useEffect } from "react";
 import { useRef } from "react";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const SignUpPage = () => {
   const [errorMessage, setErrorMessage] = useState("");
@@ -28,6 +30,9 @@ const SignUpPage = () => {
 
   return (
     <div className={style.allSide}>
+      <Nav.Link href="/" className={style.linkIcon}>
+        <FontAwesomeIcon icon={faArrowLeft} className={style.arrowLeftIcon} />
+      </Nav.Link>
       <h2 className={style.h2SignUp}>تسجيل الدخول</h2>
       <div className={style.formSide}>
         <Form onSubmit={submitFormHandler} className={style.form}>
