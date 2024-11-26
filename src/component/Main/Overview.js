@@ -20,27 +20,27 @@ const Overview = () => {
       className={style.overview}
     >
       <Carousel.Item className={style.item}>
-        <Container className={style.imgContainer}>
+        <div className={style.imgContainer}>
           <img src={image1} className={style.imageOverview} />
-        </Container>
+        </div>
         <Carousel.Caption className={style.caption}>
           <h3 className={style.h3Overview}>نظامك الصّحي هو أساس حياتك</h3>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item className={style.item}>
-        <Container className={style.imgContainer}>
+        <div className={style.imgContainer}>
           <img src={image2} className={style.imageOverview} />
-        </Container>{" "}
+        </div>{" "}
         <Carousel.Caption className={style.caption}>
           <h3 className={style.h3Overview}>استشارات طبيّة سريعة بكبسة زر</h3>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item className={style.item}>
-        <Container className={style.imgContainer}>
+        <div className={style.imgContainer}>
           <img src={image3} className={style.imageOverview} />
-        </Container>{" "}
+        </div>{" "}
         <Carousel.Caption className={style.caption}>
           <h3 className={style.h3Overview}>اختبر لياقتك وتعلّم عن نفسك</h3>
         </Carousel.Caption>

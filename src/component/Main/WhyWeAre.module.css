@@ -1,17 +1,53 @@
-.allWhyWeAre {
-  background-color: rgb(177, 93, 93);
+.whyParag {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #e9b384;
+  font-size: 40px;
+  font-weight: bold;
+  /* margin-top: 3rem; */
+  padding-top: 7rem;
+}
+
+.allWhyWeAre {
+  display: flex;
+  flex-wrap: wrap;
+  direction: rtl;
+  margin: 4rem 0rem 5rem 0rem;
+  padding: 0px;
 }
 
 .internalDiv {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
 }
 
-.imgWhyWeAre {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+.imagePart1,
+.imagePart3 {
+  width: 25%;
+  height: 150px;
+  margin-top: 5rem;
+}
+
+.imagePart2,
+.imagePart4 {
+  width: 25%;
+  height: 150px;
+}
+
+.internalDiv h4 {
+  margin-top: 3rem;
+  color: #7c9d96;
+}
+
+.internalDiv p {
+  width: 57%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #222;
 }

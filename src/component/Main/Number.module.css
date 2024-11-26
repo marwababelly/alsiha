@@ -1,0 +1,44 @@
+.allNum {
+  background-color: #a1ccd17d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  direction: rtl;
+}
+
+.allNum h3 {
+  display: flex;
+  margin-top: 5rem;
+  color: #e9b384;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.allNum p {
+  font-size: 25px;
+  color: #222;
+}
+
+.nums {
+  display: flex;
+  flex-direction: row;
+}
+
+.nums div {
+}
+
+.nums img {
+  width: 50%;
+  height: 150px;
+  margin-top: 1rem;
+}
+
+.nums h4 {
+  font-weight: bold;
+}
+
+.nums h6 {
+  margin-top: 0.5rem;
+}
