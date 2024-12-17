@@ -1,0 +1,27 @@
+.allNavTab {
+  direction: rtl;
+  margin-bottom: 2rem;
+  /* border: 1px solid #7c9d96; */
+}
+
+.navLink {
+  color: #7c9d96;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  color: #7c9d96;
+}
+
+.icon {
+  color: #7c9d96;
+  translate: -130px 0px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

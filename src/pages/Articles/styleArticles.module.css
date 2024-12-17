@@ -1,0 +1,26 @@
+.allCard {
+  background-color: #fcfcfa;
+  display: flex;
+  margin-top: 3rem;
+  direction: rtl;
+  margin-right: 2rem;
+  height: 150px;
+  border: 1px solid #e9b384;
+}
+
+.imgCard {
+  width: 150px;
+  height: 150px;
+}
+
+.paragraphCard {
+  padding-right: 12rem;
+}
+
+.titleCard {
+  color: #e9b384;
+}
+
+.textCard {
+  color: dimgrey;
+}
