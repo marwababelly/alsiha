@@ -15,6 +15,8 @@ import HealthArticles from "./pages/Articles/HealthArticles";
 import FoodArticles from "./pages/Articles/FoodArticles";
 import SportArticles from "./pages/Articles/SportArticles";
 import AlternativeMedicineArticles from "./pages/Articles/AlternativeMedicineArticles";
+import WaterTest from "./pages/TestYourself/WaterTest";
+import AnotherTestPages from "./pages/TestYourself/AnotherTestPages";
 
 const App = () => {
   return (
@@ -36,6 +38,11 @@ const App = () => {
         <Route
           path="/Alternative-medicine/:alternativeLink"
           element={<AlternativeMedicineArticles />}
+        />
+        <Route path="/TestYourself/waterTestPage" element={<WaterTest />} />
+        <Route
+          path="/TestYourself/anotherTestPage"
+          element={<AnotherTestPages />}
         />
       </Routes>
       <Footer />
